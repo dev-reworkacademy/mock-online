@@ -1,0 +1,294 @@
+{
+    "11": [
+        {
+            "id": "3cbx1n0lrz398hf",
+            "title": "SECTION 1",
+            "lectures": 4,
+            "assessment": 5,
+            "resource_duration": "1hr 30min",
+            "completed": 0,
+            "total": 4,
+            "lessons": [
+                {
+                    "id": "3cbx1n0lrz3b524",
+                    "title": " Introduction to Web Development",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                    "resource_duration": "24 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "is_completed": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": "Lorem ipsum dolor sit amet, con et nonum nib labor et non proident dolor.",
+                    "caption": false,
+                    "rating": 4.4,
+                    "total_rated": "5,899",
+                    "objective": [
+                        "Use stateful authentication practices",
+                        "Integrate react and express application",
+                        "using html content to upload course content",
+                        "Deploy to a different postbuild script"
+                    ],
+                    "langauges": [
+                        {
+                            "name": "English",
+                            "default": true
+                        }
+                    ],
+                    "notes": [
+                        {
+                            "duration": "02:33",
+                            "text": "English is available in the following languages and will be available in the future"
+                        },
+                        {
+                            "duration": "03:33",
+                            "text": "I love to see the latest versions of English and arabic in the course."
+                        }
+                    ],
+                    "reviews": [
+                        {
+                            "rate": "5",
+                            "pct": "47%"
+                        },
+                        {
+                            "rate": "4",
+                            "pct": "41%"
+                        },
+                        {
+                            "rate": "3",
+                            "pct": "12%"
+                        },
+                        {
+                            "rate": "2",
+                            "pct": "0%"
+                        },
+                        {
+                            "rate": "1",
+                            "pct": "0%"
+                        }
+                    ]
+                },
+                {
+                    "id": "3cbx1n0lrz3bmsc",
+                    "title": "Set Up",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                    "resource_duration": "10 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "is_completed": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": "Lorem ipsum dolor sit amet, con et nonum nib labor et non proident dolor.",
+                    "caption": false,
+                    "rating": 4.4,
+                    "total_rated": "5,899",
+                    "langauges": [
+                        {
+                            "name": "English",
+                            "default": true
+                        }
+                    ]
+                },
+                {
+                    "id": "3cbx1n0lrz3bxko",
+                    "title": "Introduction to HTML Tags",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                    "resource_duration": "5 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_completed": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": "Lorem ipsum dolor sit amet, con et nonum nib labor et non proident dolor.",
+                    "caption": false,
+                    "rating": 4.4,
+                    "total_rated": "5,899",
+                    "langauges": [
+                        {
+                            "name": "English",
+                            "default": true
+                        }
+                    ]
+                },
+                {
+                    "id": "3cbx1n0lrz3ccfh",
+                    "title": "HTML Tags",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+                    "resource_duration": "20 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_completed": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": "Lorem ipsum dolor sit amet, con et nonum nib labor et non proident dolor.",
+                    "caption": false,
+                    "rating": 4.4,
+                    "total_rated": "5,899",
+                    "langauges": [
+                        {
+                            "name": "English",
+                            "default": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3cbx1n0lrz3ers5",
+            "title": "SECTION 2",
+            "lectures": 5,
+            "assessment": 1,
+            "resource_duration": "1hr 30min",
+            "completed": 0,
+            "total": 3,
+            "lessons": [
+                {
+                    "id": "3cbx1n0lrz3ft1x",
+                    "title": "Linking HTML Pages",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+                    "resource_duration": "30 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_completed": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": "Lorem ipsum dolor sit amet, con et nonum nib labor et non proident dolor.",
+                    "caption": false,
+                    "rating": 4.4,
+                    "total_rated": "5,899",
+                    "langauges": [
+                        {
+                            "name": "English",
+                            "default": true
+                        }
+                    ]
+                },
+                {
+                    "id": "3cbx1n0lrz3gaih",
+                    "title": "Introduction to CSS",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+                    "resource_duration": "30 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_completed": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": ""
+                },
+                {
+                    "id": "3cbx1n0lrz3gsy8",
+                    "title": "Inline CSS",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+                    "resource_duration": "30 min",
+                    "is_downloadable": false,
+                    "is_completed": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": ""
+                }
+            ]
+        }
+    ],
+    "12": [
+        {
+            "id": "3cbx1n0lrz3idgg",
+            "title": "SECTION 3",
+            "lectures": 2,
+            "assessment": 2,
+            "completed": 0,
+            "total": 4,
+            "resource_duration": "1hr 30min",
+            "lessons": [
+                {
+                    "id": "3cbx1n0lrz3ja6p",
+                    "title": "Lab class Part 1",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+                    "resource_duration": "20 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": ""
+                },
+                {
+                    "id": "3cbx1n0lrz3jhi0",
+                    "title": "Lab class Part 2",
+                    "lesson_type": "video",
+                    "resource_id": "",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+                    "resource_duration": "20 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": ""
+                },
+                {
+                    "id": "1odi4664lvz3qrb5",
+                    "title": "",
+                    "lesson_type": "assignment",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+                    "resource_id": "3cbxbrolry5hbq9",
+                    "resource_duration": "20 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": ""
+                },
+                {
+                    "id": "1odi4664lvz47zd4",
+                    "title": "",
+                    "lesson_type": "video",
+                    "resource_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+                    "resource_id": "3c8dca0ltsoj43a",
+                    "resource_duration": "20 min",
+                    "is_downloadable": false,
+                    "is_lesson_free": false,
+                    "is_lesson_intro": false,
+                    "is_enabled_discussion": false,
+                    "discussion_link": "",
+                    "download_link": "",
+                    "descp": ""
+                }
+            ]
+        }
+    ]
+}

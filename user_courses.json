@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "rating": 4.3,
+        "image": "https://api.reworkacademy.co/v2/rw/2/html.png",
+        "course": {
+            "id": "12",
+            "name": "HTML Programming",
+            "descp": "Lorem Ipsum, dolor sit amet, consectetur adipiscing elit, lobortis vel aug commod null aliquet et just sed diam et dolor et ea rebum du."
+        },
+        "is_started": true,
+        "progress": "40%",
+        "start_date": "2024-12-10T13:31:07.096Z",
+        "is_in_batch": true,
+        "created": {
+            "by": "Academy",
+            "at": "2024-12-10T13:31:07.096Z"
+        }
+    },
+    {
+        "id": "2",
+        "rating": 3.1,
+        "image": "https://api.reworkacademy.co/v2/rw/2/git.png",
+        "course": {
+            "id": "11",
+            "name": "git Technology",
+            "descp": "Lorem Ipsum, dolor sit amet, consectetur adipiscing elit, lobortis vel aug commod null aliquet et just sed diam et dolor et ea rebum du."
+        },
+        "is_started": false,
+        "progress": "40%",
+        "start_date": null,
+        "is_in_batch": false,
+        "created": {
+            "by": "Academy",
+            "at": "2024-12-10T13:31:07.096Z"
+        }
+    }
+]
