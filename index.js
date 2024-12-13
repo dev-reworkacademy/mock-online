@@ -50,6 +50,22 @@ app.post(`${version}/auth/login`, (req, res) => {
     })
 })
 
+app.get(`${version}/users/me`, validate, (req, res) => {
+
+
+    res.json({
+        status: "ok",
+        code: 200,
+        msg: "Successfully retrieved student course",
+        data: {
+            "id":"123",
+            "email":"devrus265@gmail.com",
+            full_name:"Anestin James",
+            "phone":"+234-934-234-3453"
+        }
+    });
+})
+
 app.get(`${version}/users/courses`, validate, (req, res) => {
     res.json({
         status: "ok",
