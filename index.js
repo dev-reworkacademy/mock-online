@@ -18,7 +18,7 @@ let course_contents = read("./course_content.json");
 let token;
 
 let validate = (req, res, next) => {
-    token =  read('./token.txt');
+    token =  fs.readFileSync('./token.txt', "utf8");
     let d = req.headers["authorization"]?.toString().toLowerCase().replace("bearer", "").trim();
     if (!d || d != token) return res.status(401).json({ status: "unauthorized", code: 401, msg: "You are not authorized to access this." });
     next();
@@ -41,7 +41,7 @@ app.post(`${version}/auth/login`, (req, res) => {
     let { email, password } = req.body;
 
 
-    token = read("./token.txt");
+    token = fs.readFileSync("./token.txt");
 
     if (email != "devrus265@gmail.com" && password != "123456") {
         return res.json({
