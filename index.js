@@ -1,31 +1,47 @@
-const express = require('express');
-const cors = require('cors');
-const fs = require('fs');
-const app = express();
-const PORT = 8000;
+let express = require('express');
+let cors = require('cors');
+let fs = require('fs');
+let app = express();
+let PORT = 8000;
 
 
 app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
-const validate = (req, res, next) => {
+let read = (path) => JSON.parse(fs.readFileSync(path, "utf8"));
+let save = (path, data) => fs.writeFileSync(path, JSON.stringify(data, null, 4));
+
+
+let user_courses = read("./user_courses.json");
+let course_contents = read("./course_content.json");
+let token;
+
+let validate = (req, res, next) => {
+    token =  read('./token.txt');
     let d = req.headers["authorization"]?.toString().toLowerCase().replace("bearer", "").trim();
-    if (!d || d != "123") return res.status(401).json({ status: "unauthorized", code: 401, msg: "You are not authorized to access this." });
+    if (!d || d != token) return res.status(401).json({ status: "unauthorized", code: 401, msg: "You are not authorized to access this." });
     next();
 }
 
-const read = (path) => JSON.parse(fs.readFileSync(path, "utf8"));
-const save = (path, data) => fs.writeFileSync(path, JSON.stringify(data, null, 4));
+let version = "/api/v1";
 
-const user_courses = read("./user_courses.json");
-const course_contents = read("./course_content.json");
+app.post(`${version}/auth/logout`,validate, (req, res) => {
+    token = Date.now().toString("32");
+    fs.writeFileSync("./token.txt",token)
+    res.json({
+        status: "ok",
+        code: 200,
+        msg: "Logout successfully..",
+    })
 
-
-const version = "/api/v1";
+})
 
 app.post(`${version}/auth/login`, (req, res) => {
     let { email, password } = req.body;
+
+
+    token = read("./token.txt");
 
     if (email != "devrus265@gmail.com" && password != "123456") {
         return res.json({
@@ -45,7 +61,7 @@ app.post(`${version}/auth/login`, (req, res) => {
                 email: "devrus265@gmail.com",
                 avatar: ""
             },
-            token: "123"
+            token
         }
     })
 })
