@@ -41,7 +41,7 @@ app.post(`${version}/auth/login`, (req, res) => {
     let { email, password } = req.body;
 
 
-    token = fs.readFileSync("./token.txt");
+    token = fs.readFileSync("./token.txt","utf-8");
 
     if (email != "devrus265@gmail.com" && password != "123456") {
         return res.json({
