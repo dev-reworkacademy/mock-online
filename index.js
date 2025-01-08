@@ -18,7 +18,7 @@ let course_contents = read("./course_content.json");
 let token;
 
 let validate = (req, res, next) => {
-    token =  fs.readFileSync('./token.txt', "utf8");
+    token = fs.readFileSync('./token.txt', "utf8");
     let d = req.headers["authorization"]?.toString().toLowerCase().replace("bearer", "").trim();
     if (!d || d != token) return res.status(401).json({ status: "unauthorized", code: 401, msg: "You are not authorized to access this." });
     next();
@@ -26,9 +26,9 @@ let validate = (req, res, next) => {
 
 let version = "/api/v1";
 
-app.post(`${version}/auth/logout`,validate, (req, res) => {
+app.post(`${version}/auth/logout`, validate, (req, res) => {
     token = Date.now().toString("32");
-    fs.writeFileSync("./token.txt",token)
+    fs.writeFileSync("./token.txt", token)
     res.json({
         status: "ok",
         code: 200,
@@ -40,16 +40,20 @@ app.post(`${version}/auth/logout`,validate, (req, res) => {
 app.post(`${version}/auth/login`, (req, res) => {
     let { email, password } = req.body;
 
+    let u_email = "devrus265@gmail.com";
+    let u_password = "123456";
+    token = fs.readFileSync("./token.txt", "utf-8");
 
-    token = fs.readFileSync("./token.txt","utf-8");
+    if (!(email == u_email &&
+        password == u_password)) {
 
-    if (email != "devrus265@gmail.com" && password != "123456") {
         return res.json({
-            status: "not_exist",
             code: 404,
+            status: "not_exist",
             msg: "Invalid email or password"
         })
     }
+
     res.json({
         status: "ok",
         code: 200,
@@ -74,10 +78,10 @@ app.get(`${version}/users/me`, validate, (req, res) => {
         code: 200,
         msg: "Successfully retrieved student course",
         data: {
-            "id":"123",
-            "email":"devrus265@gmail.com",
-            full_name:"Anestin James",
-            "phone":"+234-934-234-3453"
+            "id": "123",
+            "email": "devrus265@gmail.com",
+            full_name: "Anestin James",
+            "phone": "+234-934-234-3453"
         }
     });
 })
